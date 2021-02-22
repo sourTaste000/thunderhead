@@ -1,6 +1,8 @@
 package me.humboldt123.thunderhead
 
+import java.io.File
+
 object Settings {
-    val TOKEN = "put_token_here"
+    val TOKEN = File("token.txt").readText(Charsets.UTF_8)
     val PREFIX = "."
 }
