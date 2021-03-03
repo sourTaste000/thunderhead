@@ -5,11 +5,19 @@
 
 Rewrite of the Thunderhead discord bot in the Kotlin programming language.
 
-Invite the bot here: [here](https://discord.com/oauth2/authorize?client_id=629799045954797609&scope=bot&permissions=8)
+Invite the old JavaScript bot [here](https://discord.com/oauth2/authorize?client_id=629799045954797609&scope=bot&permissions=8).
 
 ## Self Hosting
 
 README in progress...
+
+## To Configure the bot
+Create `setting.toml` file with the content
+```toml
+[Config]
+    token = "YOURTOKENHERE"
+    prefix = "."
+```
 
 ## Contributing
 Pull requests are welcome!
@@ -53,7 +61,3 @@ Pull requests are welcome!
 - purge
 ### Other
 - Finish README
-- Change way bot is given token
-
-## License
-[GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
