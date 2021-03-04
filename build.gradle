@@ -25,5 +25,5 @@ dependencies {
     compile 'com.github.ZeroMemes:Alpine:1.9'
     compile 'net.objecthunter:exp4j:0.4.8'
     compile 'net.imagej:ij:1.51h'
-    compile 'com.moandjiezana.toml:toml4j:0.7.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
 }

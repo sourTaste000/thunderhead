@@ -12,11 +12,12 @@ Invite the old JavaScript bot [here](https://discord.com/oauth2/authorize?client
 README in progress...
 
 ## To Configure the bot
-Create `setting.toml` file with the content
-```toml
-[Config]
-    token = "YOURTOKENHERE"
-    prefix = "."
+Create `setting.json` file with the content
+```json
+{
+  "token": "YOUR_TOKEN_HERE",
+  "prefix": "."
+}
 ```
 
 ## Contributing

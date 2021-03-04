@@ -1,9 +1,9 @@
 package me.humboldt123.thunderhead.util
 
-import com.moandjiezana.toml.Toml
+import com.google.gson.Gson
 import java.io.File
 
-val config: Config = Toml().read(File("setting.toml")).to(Config::class.java)
+val config: Config = Gson().fromJson(File("setting.json").readText(), Config::class.java)
 
 data class Config(
     var token: String? = null,
